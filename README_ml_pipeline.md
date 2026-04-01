@@ -1,11 +1,11 @@
-# 🚲 Seoul Bike Sharing — End-to-End ML Pipeline
+ Seoul Bike Sharing — End-to-End ML Pipeline
 
 Predicting hourly bike rental demand in Seoul using a full data science pipeline:  
 **PostgreSQL → Python → Feature Engineering → Machine Learning**
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Seoul Bike Sharing Demand** dataset from UCI / Kaggle  
 - **8,760 rows** — hourly records for 1 full year (2017–2018)  
@@ -14,7 +14,7 @@ Predicting hourly bike rental demand in Seoul using a full data science pipeline
 
 ---
 
-## 🗂️ Pipeline Overview
+##  Pipeline Overview
 
 ```
 Raw CSV
@@ -60,7 +60,7 @@ Results stored in PostgreSQL (model_results table)
 
 ---
 
-## 🏆 Results
+##  Results
 
 | Model             |  RMSE  |  MAE   |   R²   | CV R² |
 |-------------------|--------|--------|--------|-------|
@@ -84,7 +84,7 @@ Results stored in PostgreSQL (model_results table)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
@@ -100,7 +100,7 @@ Results stored in PostgreSQL (model_results table)
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -137,7 +137,7 @@ jupyter notebook ml_pipeline.ipynb
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── ml_pipeline.ipynb    # Main notebook (full pipeline)
@@ -147,7 +147,7 @@ jupyter notebook ml_pipeline.ipynb
 
 ---
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
 - **SQL-based feature engineering** (window functions, z-scores, NTILE) integrates seamlessly with sklearn pipelines
 - **Random Forest** significantly outperforms linear models for this non-linear demand prediction task
@@ -156,8 +156,8 @@ jupyter notebook ml_pipeline.ipynb
 
 ---
 
-## 👤 Author
+##  Author
 
 **qorxmazsh1**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/qorxmazsh1)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]([https://linkedin.com/in/qorxmazsh1](https://www.linkedin.com/in/gorkhmaz-shahbazli-433111250/))
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shahbazliqorxmaz@gmail.com)
